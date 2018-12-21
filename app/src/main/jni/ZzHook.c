@@ -8,13 +8,13 @@
 #include "hook.h"
 #include "hookzz.h"
 
-#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "zzkHook", __VA_ARGS__))
-#define LOGE(...) ((void)__android_log_print(ANDROID_LOG_ERROR, "zzkHook", __VA_ARGS__))
+#define LOGI(...) ((void)__android_log_print(ANDROID_LOG_INFO, "zzHook", __VA_ARGS__))
+#define LOGE(...) ((void)__android_log_print(ANDROID_LOG_ERROR, "zzHook", __VA_ARGS__))
 
 #define INVALID_FUNC_ADDR NULL
 
 void _init(char *args) {
-    LOGI("kkk hook is start");
+    LOGI("hook is start");
 }
 
 
